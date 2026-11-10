@@ -252,7 +252,7 @@ with `401` — the unmodified client completed the exchange:
 The responder and the credential document are ours and fabricated. This isolates the handshake mechanics:
 it was run with the unwrapped client directly, not re-driven through the sandbox at the metadata address
 (that reach is established above). Real-cloud hop-limit enforcement and actual credential issuance were
-not evaluated. Evidence and the runnable harness: `poc/imdsv2/`.
+not evaluated. Evidence and the harness are available on request.
 
 ## Impact
 
